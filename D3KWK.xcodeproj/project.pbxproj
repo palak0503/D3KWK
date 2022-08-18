@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E060D5B28AD36320008DDDA /* recycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D5A28AD36320008DDDA /* recycleViewController.swift */; };
+		0E060D6228AD60480008DDDA /* plantDietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6028AD60480008DDDA /* plantDietViewController.swift */; };
+		0E060D6528AD63BA0008DDDA /* waterUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6428AD63BA0008DDDA /* waterUseViewController.swift */; };
+		0E060D6728AD66A20008DDDA /* clothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6628AD66A20008DDDA /* clothingViewController.swift */; };
+		0E060D6928AD685F0008DDDA /* transportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6828AD685F0008DDDA /* transportViewController.swift */; };
+		0E060D6B28AD6BDD0008DDDA /* energyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6A28AD6BDD0008DDDA /* energyViewController.swift */; };
 		0E920F3228AC1895009F248A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E920F3128AC1895009F248A /* AppDelegate.swift */; };
 		0E920F3428AC1895009F248A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E920F3328AC1895009F248A /* SceneDelegate.swift */; };
-		0E920F3628AC1895009F248A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E920F3528AC1895009F248A /* ViewController.swift */; };
 		0E920F3928AC1895009F248A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E920F3728AC1895009F248A /* Main.storyboard */; };
 		0E920F3C28AC1895009F248A /* D3KWK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E920F3A28AC1895009F248A /* D3KWK.xcdatamodeld */; };
 		0E920F3E28AC1896009F248A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E920F3D28AC1896009F248A /* Assets.xcassets */; };
@@ -37,10 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E060D5A28AD36320008DDDA /* recycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recycleViewController.swift; sourceTree = "<group>"; };
+		0E060D6028AD60480008DDDA /* plantDietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantDietViewController.swift; sourceTree = "<group>"; };
+		0E060D6428AD63BA0008DDDA /* waterUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterUseViewController.swift; sourceTree = "<group>"; };
+		0E060D6628AD66A20008DDDA /* clothingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothingViewController.swift; sourceTree = "<group>"; };
+		0E060D6828AD685F0008DDDA /* transportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportViewController.swift; sourceTree = "<group>"; };
+		0E060D6A28AD6BDD0008DDDA /* energyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = energyViewController.swift; sourceTree = "<group>"; };
 		0E920F2E28AC1895009F248A /* D3KWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D3KWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E920F3128AC1895009F248A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E920F3328AC1895009F248A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E920F3528AC1895009F248A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E920F3828AC1895009F248A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E920F3B28AC1895009F248A /* D3KWK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = D3KWK.xcdatamodel; sourceTree = "<group>"; };
 		0E920F3D28AC1896009F248A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +91,8 @@
 		0E920F2528AC1895009F248A = {
 			isa = PBXGroup;
 			children = (
+				0E060D6A28AD6BDD0008DDDA /* energyViewController.swift */,
+				0E060D6828AD685F0008DDDA /* transportViewController.swift */,
 				0E920F3028AC1895009F248A /* D3KWK */,
 				0E920F4A28AC1896009F248A /* D3KWKTests */,
 				0E920F5428AC1896009F248A /* D3KWKUITests */,
@@ -103,7 +115,10 @@
 			children = (
 				0E920F3128AC1895009F248A /* AppDelegate.swift */,
 				0E920F3328AC1895009F248A /* SceneDelegate.swift */,
-				0E920F3528AC1895009F248A /* ViewController.swift */,
+				0E060D6028AD60480008DDDA /* plantDietViewController.swift */,
+				0E060D6628AD66A20008DDDA /* clothingViewController.swift */,
+				0E060D5A28AD36320008DDDA /* recycleViewController.swift */,
+				0E060D6428AD63BA0008DDDA /* waterUseViewController.swift */,
 				0E920F3728AC1895009F248A /* Main.storyboard */,
 				0E920F3D28AC1896009F248A /* Assets.xcassets */,
 				0E920F3F28AC1896009F248A /* LaunchScreen.storyboard */,
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E920F3628AC1895009F248A /* ViewController.swift in Sources */,
 				0E920F3228AC1895009F248A /* AppDelegate.swift in Sources */,
+				0E060D6B28AD6BDD0008DDDA /* energyViewController.swift in Sources */,
+				0E060D6228AD60480008DDDA /* plantDietViewController.swift in Sources */,
 				0E920F3C28AC1895009F248A /* D3KWK.xcdatamodeld in Sources */,
+				0E060D6728AD66A20008DDDA /* clothingViewController.swift in Sources */,
+				0E060D6928AD685F0008DDDA /* transportViewController.swift in Sources */,
 				0E920F3428AC1895009F248A /* SceneDelegate.swift in Sources */,
+				0E060D6528AD63BA0008DDDA /* waterUseViewController.swift in Sources */,
+				0E060D5B28AD36320008DDDA /* recycleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
