@@ -35,7 +35,8 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     @IBOutlet weak var whatRecycleInfo: UITextView!
     
     @IBAction func whatRecycleTap(_ sender: Any) {
-        whatRecycleInfo.text = "Recycling is the process of converting waste into reusable material"
+        whatRecycleInfo.text = "Reduce: cut back on waste produced.Reuse: find creative ways to utilize things that would otherwise go to waste. Recycle: repurpose old and useless materials to create something new."
+        
     }
     
     @IBOutlet weak var whyRecycleInfo: UITextView!

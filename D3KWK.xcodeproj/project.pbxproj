@@ -13,6 +13,11 @@
 		0E060D6728AD66A20008DDDA /* clothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6628AD66A20008DDDA /* clothingViewController.swift */; };
 		0E060D6928AD685F0008DDDA /* transportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6828AD685F0008DDDA /* transportViewController.swift */; };
 		0E060D6B28AD6BDD0008DDDA /* energyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E060D6A28AD6BDD0008DDDA /* energyViewController.swift */; };
+		0E2941CD28AE86AC005C54CC /* impactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2941CC28AE86AC005C54CC /* impactViewController.swift */; };
+		0E2941CF28AEACF7005C54CC /* resourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2941CE28AEACF7005C54CC /* resourceViewController.swift */; };
+		0E2941D028AEACF7005C54CC /* resourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2941CE28AEACF7005C54CC /* resourceViewController.swift */; };
+		0E4DBEB828AF0BEF0015FDA9 /* streakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DBEB728AF0BEF0015FDA9 /* streakViewController.swift */; };
+		0E4DBEB928AF0BEF0015FDA9 /* streakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DBEB728AF0BEF0015FDA9 /* streakViewController.swift */; };
 		0E920F3228AC1895009F248A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E920F3128AC1895009F248A /* AppDelegate.swift */; };
 		0E920F3428AC1895009F248A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E920F3328AC1895009F248A /* SceneDelegate.swift */; };
 		0E920F3928AC1895009F248A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E920F3728AC1895009F248A /* Main.storyboard */; };
@@ -48,6 +53,9 @@
 		0E060D6628AD66A20008DDDA /* clothingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothingViewController.swift; sourceTree = "<group>"; };
 		0E060D6828AD685F0008DDDA /* transportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportViewController.swift; sourceTree = "<group>"; };
 		0E060D6A28AD6BDD0008DDDA /* energyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = energyViewController.swift; sourceTree = "<group>"; };
+		0E2941CC28AE86AC005C54CC /* impactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = impactViewController.swift; sourceTree = "<group>"; };
+		0E2941CE28AEACF7005C54CC /* resourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourceViewController.swift; sourceTree = "<group>"; };
+		0E4DBEB728AF0BEF0015FDA9 /* streakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streakViewController.swift; sourceTree = "<group>"; };
 		0E920F2E28AC1895009F248A /* D3KWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D3KWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E920F3128AC1895009F248A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E920F3328AC1895009F248A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +99,9 @@
 		0E920F2528AC1895009F248A = {
 			isa = PBXGroup;
 			children = (
+				0E4DBEB728AF0BEF0015FDA9 /* streakViewController.swift */,
+				0E2941CE28AEACF7005C54CC /* resourceViewController.swift */,
+				0E2941CC28AE86AC005C54CC /* impactViewController.swift */,
 				0E060D6A28AD6BDD0008DDDA /* energyViewController.swift */,
 				0E060D6828AD685F0008DDDA /* transportViewController.swift */,
 				0E920F3028AC1895009F248A /* D3KWK */,
@@ -276,14 +287,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2941CF28AEACF7005C54CC /* resourceViewController.swift in Sources */,
 				0E920F3228AC1895009F248A /* AppDelegate.swift in Sources */,
 				0E060D6B28AD6BDD0008DDDA /* energyViewController.swift in Sources */,
 				0E060D6228AD60480008DDDA /* plantDietViewController.swift in Sources */,
 				0E920F3C28AC1895009F248A /* D3KWK.xcdatamodeld in Sources */,
 				0E060D6728AD66A20008DDDA /* clothingViewController.swift in Sources */,
+				0E4DBEB828AF0BEF0015FDA9 /* streakViewController.swift in Sources */,
 				0E060D6928AD685F0008DDDA /* transportViewController.swift in Sources */,
 				0E920F3428AC1895009F248A /* SceneDelegate.swift in Sources */,
 				0E060D6528AD63BA0008DDDA /* waterUseViewController.swift in Sources */,
+				0E2941CD28AE86AC005C54CC /* impactViewController.swift in Sources */,
 				0E060D5B28AD36320008DDDA /* recycleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4DBEB928AF0BEF0015FDA9 /* streakViewController.swift in Sources */,
+				0E2941D028AEACF7005C54CC /* resourceViewController.swift in Sources */,
 				0E920F4C28AC1896009F248A /* D3KWKTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
